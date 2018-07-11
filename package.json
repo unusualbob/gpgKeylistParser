@@ -1,0 +1,29 @@
+{
+  "name": "gpg-keylist-parser",
+  "version": "1.0.0",
+  "description": "A utility for parsing gpg --list-sigs or --list-keys using output format --with-colons",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unusualbob/gpgKeylistParser.git"
+  },
+  "keywords": [
+    "gpg",
+    "colons",
+    "with-colons",
+    "list-sigs",
+    "list-keys"
+  ],
+  "author": "Rob Riddle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unusualbob/gpgKeylistParser/issues"
+  },
+  "homepage": "https://github.com/unusualbob/gpgKeylistParser#readme"
+}
