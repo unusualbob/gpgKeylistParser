@@ -55,6 +55,11 @@ GpgKeyListParser.prototype.processBuffer = function() {
     lineNumber++;
   }
 
+  //Process last record
+  if (publicKeyObject) {
+    jsonOutput.push(publicKeyObject);
+  }
+
   return jsonOutput;
 };
 
