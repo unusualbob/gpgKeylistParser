@@ -4,7 +4,7 @@ function GpgKeyListParser(streamToConsume) {
     streamToConsume.on('data', (data) => {
       this.bufferStream(data);
     });
-    streamToConsume.on('finish', () => {
+    streamToConsume.on('end', () => {
       resolve(this.processBuffer());
     });
   });
